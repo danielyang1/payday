@@ -3,8 +3,9 @@
 var wage;
 var time;
 var regular;
-var ot
-var otPay
+var ot;
+var otPay;
+var round;
 
 wage = prompt("How much per hour?");
 time = prompt("Total hours worked?");
@@ -12,9 +13,10 @@ ot = time - 40;
 regular = wage * time;
 otAmt = ot * .5 * wage;
 otPay = otAmt + regular;
+round = Math.ceil(otPay * 100)/100;
 
 if (time > 40){
-	console.log(otPay);
+	console.log(round);
 	} else if (ot === 0){
 		console.log(regular);
 	} else {
