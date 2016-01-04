@@ -24,7 +24,6 @@ if (time > 40){
 };
 
 
-
 /*  !! First Part of the Assignment !!
 var wage;
 var time;
