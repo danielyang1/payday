@@ -8,8 +8,8 @@ function money() {
 	var round;
 	var otAmt;
 
-	wage = prompt("How much per hour?");
-	time = prompt("Total hours worked?");
+	wage = prompt("How much per hour??");
+	time = prompt("Total hours worked??");
 	ot = time - 40;
 	regular = wage * time;
 	otAmt = ot * .5 * wage;
